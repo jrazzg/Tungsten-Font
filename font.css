@@ -1,0 +1,382 @@
+@font-face {
+    font-family: 'Tungsten-Compressed-Semi';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-SemiBold.eot');
+    src: local('Tungsten Compressed SemiBold'), local('TungstenCompressed-SemiBold'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-SemiBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-SemiBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Compressed-Light';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Light.eot');
+    src: local('Tungsten Compressed Light'), local('TungstenCompressed-Light'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Light.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Light.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Compressed-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Thin.eot');
+    src: local('Tungsten Compressed Thin'), local('TungstenCompressed-Thin'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Thin.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Thin.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Narrow-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-SemiBold.eot');
+    src: local('Tungsten Narrow SemiBold'), local('TungstenNarrow-SemiBold'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-SemiBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-SemiBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Narrow-Light';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Light.eot');
+    src: local('Tungsten Narrow Light'), local('TungstenNarrow-Light'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Light.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Light.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Compressed-ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-ExtraLight.eot');
+    src: local('Tungsten Compressed ExtraLight'), local('TungstenCompressed-ExtraLight'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-ExtraLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-ExtraLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Compressed-Book';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Book.eot');
+    src: local('Tungsten Compressed Book'), local('TungstenCompressed-Book'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Book.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Book.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Book.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Condensed-Book';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Book.eot');
+    src: local('Tungsten Condensed Book'), local('TungstenCondensed-Book'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Book.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Book.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Book.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Narrow-Book';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Book.eot');
+    src: local('Tungsten Narrow Book'), local('TungstenNarrow-Book'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Book.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Book.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Book.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Thin.eot');
+    src: local('Tungsten Thin'), local('Tungsten-Thin'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Thin.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Thin.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Narrow-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Thin.eot');
+    src: local('Tungsten Narrow Thin'), local('TungstenNarrow-Thin'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Thin.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Thin.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-ExtraLight.eot');
+    src: local('Tungsten ExtraLight'), local('Tungsten-ExtraLight'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-ExtraLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-ExtraLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Condensed-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Bold.eot');
+    src: local('Tungsten Condensed Bold'), local('TungstenCondensed-Bold'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Condensed-Black';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Black.eot');
+    src: local('Tungsten Condensed Black'), local('TungstenCondensed-Black'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Black.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Black.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Compressed-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Medium.eot');
+    src: local('Tungsten Compressed Medium'), local('TungstenCompressed-Medium'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Narrow-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Medium.eot');
+    src: local('Tungsten Narrow Medium'), local('TungstenNarrow-Medium'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Condensed-ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-ExtraLight.eot');
+    src: local('Tungsten Condensed ExtraLight'), local('TungstenCondensed-ExtraLight'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-ExtraLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-ExtraLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Condensed-Light';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Light.eot');
+    src: local('Tungsten Condensed Light'), local('TungstenCondensed-Light'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Light.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Light.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Medium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Book';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Book.eot');
+    src: local('Tungsten Book'), local('Tungsten-Book'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Book.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Book.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Book.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Condensed-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Medium.eot');
+    src: local('Tungsten Condensed Medium'), local('TungstenCondensed-Medium'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Light';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Light.eot');
+    src: local('Tungsten Light'), local('Tungsten-Light'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Light.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Light.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Narrow-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Bold.eot');
+    src: local('Tungsten Narrow Bold'), local('TungstenNarrow-Bold'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Compressed-Black';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Black.eot');
+    src: local('Tungsten Compressed Black'), local('TungstenCompressed-Black'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Black.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Black.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Condensed-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-SemiBold.eot');
+    src: local('Tungsten Condensed SemiBold'), local('TungstenCondensed-SemiBold'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-SemiBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-SemiBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Compressed-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Bold.eot');
+    src: local('Tungsten Compressed Bold'), local('TungstenCompressed-Bold'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCompressed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Narrow-Black';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Black.eot');
+    src: local('Tungsten Narrow Black'), local('TungstenNarrow-Black'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Black.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Black.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Black';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Black.eot');
+    src: local('Tungsten Black'), local('Tungsten-Black'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Black.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Black.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Bold.eot');
+    src: local('Tungsten Bold'), local('Tungsten-Bold'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-SemiBold.eot');
+    src: local('Tungsten SemiBold'), local('Tungsten-SemiBold'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-SemiBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-SemiBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/Tungsten-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Condensed-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Thin.eot');
+    src: local('Tungsten Condensed Thin'), local('TungstenCondensed-Thin'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Thin.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Thin.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenCondensed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten-Narrow-ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-ExtraLight.eot');
+    src: local('Tungsten Narrow ExtraLight'), local('TungstenNarrow-ExtraLight'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-ExtraLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-ExtraLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/jrazzg/Tungsten-Font/font/TungstenNarrow-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
