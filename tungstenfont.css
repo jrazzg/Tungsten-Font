@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Tungsten Compressed Semi';
+    font-family: 'Tungsten-Compressed-Semi';
     src: url('font/TungstenCompressed-SemiBold.eot');
     src: local('Tungsten Compressed SemiBold'), local('TungstenCompressed-SemiBold'),
         url('font/TungstenCompressed-SemiBold.eot?#iefix') format('embedded-opentype'),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Compressed';
+    font-family: 'Tungsten-Compressed-Light';
     src: url('font/TungstenCompressed-Light.eot');
     src: local('Tungsten Compressed Light'), local('TungstenCompressed-Light'),
         url('font/TungstenCompressed-Light.eot?#iefix') format('embedded-opentype'),
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Compressed';
+    font-family: 'Tungsten-Compressed-Thin';
     src: url('font/TungstenCompressed-Thin.eot');
     src: local('Tungsten Compressed Thin'), local('TungstenCompressed-Thin'),
         url('font/TungstenCompressed-Thin.eot?#iefix') format('embedded-opentype'),
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Narrow';
+    font-family: 'Tungsten-Narrow-SemiBold';
     src: url('font/TungstenNarrow-SemiBold.eot');
     src: local('Tungsten Narrow SemiBold'), local('TungstenNarrow-SemiBold'),
         url('font/TungstenNarrow-SemiBold.eot?#iefix') format('embedded-opentype'),
@@ -47,7 +47,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Narrow';
+    font-family: 'Tungsten-Narrow-Light';
     src: url('font/TungstenNarrow-Light.eot');
     src: local('Tungsten Narrow Light'), local('TungstenNarrow-Light'),
         url('font/TungstenNarrow-Light.eot?#iefix') format('embedded-opentype'),
@@ -59,7 +59,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Compressed XLight';
+    font-family: 'Tungsten-Compressed-ExtraLight';
     src: url('font/TungstenCompressed-ExtraLight.eot');
     src: local('Tungsten Compressed ExtraLight'), local('TungstenCompressed-ExtraLight'),
         url('font/TungstenCompressed-ExtraLight.eot?#iefix') format('embedded-opentype'),
@@ -71,7 +71,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Compressed Book';
+    font-family: 'Tungsten-Compressed-Book';
     src: url('font/TungstenCompressed-Book.eot');
     src: local('Tungsten Compressed Book'), local('TungstenCompressed-Book'),
         url('font/TungstenCompressed-Book.eot?#iefix') format('embedded-opentype'),
@@ -83,7 +83,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Condensed Book';
+    font-family: 'Tungsten-Condensed-Book';
     src: url('font/TungstenCondensed-Book.eot');
     src: local('Tungsten Condensed Book'), local('TungstenCondensed-Book'),
         url('font/TungstenCondensed-Book.eot?#iefix') format('embedded-opentype'),
@@ -95,7 +95,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Narrow Book';
+    font-family: 'Tungsten-Narrow-Book';
     src: url('font/TungstenNarrow-Book.eot');
     src: local('Tungsten Narrow Book'), local('TungstenNarrow-Book'),
         url('font/TungstenNarrow-Book.eot?#iefix') format('embedded-opentype'),
@@ -107,7 +107,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten';
+    font-family: 'Tungsten-Thin';
     src: url('font/Tungsten-Thin.eot');
     src: local('Tungsten Thin'), local('Tungsten-Thin'),
         url('font/Tungsten-Thin.eot?#iefix') format('embedded-opentype'),
@@ -119,7 +119,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Narrow';
+    font-family: 'Tungsten-Narrow-Thin';
     src: url('font/TungstenNarrow-Thin.eot');
     src: local('Tungsten Narrow Thin'), local('TungstenNarrow-Thin'),
         url('font/TungstenNarrow-Thin.eot?#iefix') format('embedded-opentype'),
@@ -131,7 +131,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten XLight';
+    font-family: 'Tungsten-ExtraLight';
     src: url('font/Tungsten-ExtraLight.eot');
     src: local('Tungsten ExtraLight'), local('Tungsten-ExtraLight'),
         url('font/Tungsten-ExtraLight.eot?#iefix') format('embedded-opentype'),
@@ -143,7 +143,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Condensed';
+    font-family: 'Tungsten-Condensed-Bold';
     src: url('font/TungstenCondensed-Bold.eot');
     src: local('Tungsten Condensed Bold'), local('TungstenCondensed-Bold'),
         url('font/TungstenCondensed-Bold.eot?#iefix') format('embedded-opentype'),
@@ -155,7 +155,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Condensed';
+    font-family: 'Tungsten-Condensed-Black';
     src: url('font/TungstenCondensed-Black.eot');
     src: local('Tungsten Condensed Black'), local('TungstenCondensed-Black'),
         url('font/TungstenCondensed-Black.eot?#iefix') format('embedded-opentype'),
@@ -167,7 +167,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Compressed';
+    font-family: 'Tungsten-Compressed-Medium';
     src: url('font/TungstenCompressed-Medium.eot');
     src: local('Tungsten Compressed Medium'), local('TungstenCompressed-Medium'),
         url('font/TungstenCompressed-Medium.eot?#iefix') format('embedded-opentype'),
@@ -179,7 +179,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Narrow';
+    font-family: 'Tungsten-Narrow-Medium';
     src: url('font/TungstenNarrow-Medium.eot');
     src: local('Tungsten Narrow Medium'), local('TungstenNarrow-Medium'),
         url('font/TungstenNarrow-Medium.eot?#iefix') format('embedded-opentype'),
@@ -191,7 +191,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Condensed XLight';
+    font-family: 'Tungsten-Condensed-ExtraLight';
     src: url('font/TungstenCondensed-ExtraLight.eot');
     src: local('Tungsten Condensed ExtraLight'), local('TungstenCondensed-ExtraLight'),
         url('font/TungstenCondensed-ExtraLight.eot?#iefix') format('embedded-opentype'),
@@ -203,7 +203,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Condensed';
+    font-family: 'Tungsten-Condensed-Light';
     src: url('font/TungstenCondensed-Light.eot');
     src: local('Tungsten Condensed Light'), local('TungstenCondensed-Light'),
         url('font/TungstenCondensed-Light.eot?#iefix') format('embedded-opentype'),
@@ -215,7 +215,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten';
+    font-family: 'Tungsten-Medium';
     src: url('font/Tungsten-Medium.eot');
     src: local('Tungsten Medium'), local('Tungsten-Medium'),
         url('font/Tungsten-Medium.eot?#iefix') format('embedded-opentype'),
@@ -227,7 +227,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Book';
+    font-family: 'Tungsten-Book';
     src: url('font/Tungsten-Book.eot');
     src: local('Tungsten Book'), local('Tungsten-Book'),
         url('font/Tungsten-Book.eot?#iefix') format('embedded-opentype'),
@@ -239,7 +239,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Condensed';
+    font-family: 'Tungsten-Condensed-Medium';
     src: url('font/TungstenCondensed-Medium.eot');
     src: local('Tungsten Condensed Medium'), local('TungstenCondensed-Medium'),
         url('font/TungstenCondensed-Medium.eot?#iefix') format('embedded-opentype'),
@@ -251,7 +251,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten';
+    font-family: 'Tungsten-Light';
     src: url('font/Tungsten-Light.eot');
     src: local('Tungsten Light'), local('Tungsten-Light'),
         url('font/Tungsten-Light.eot?#iefix') format('embedded-opentype'),
@@ -263,7 +263,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Narrow';
+    font-family: 'Tungsten-Narrow-Bold';
     src: url('font/TungstenNarrow-Bold.eot');
     src: local('Tungsten Narrow Bold'), local('TungstenNarrow-Bold'),
         url('font/TungstenNarrow-Bold.eot?#iefix') format('embedded-opentype'),
@@ -275,7 +275,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Compressed';
+    font-family: 'Tungsten-Compressed-Black';
     src: url('font/TungstenCompressed-Black.eot');
     src: local('Tungsten Compressed Black'), local('TungstenCompressed-Black'),
         url('font/TungstenCompressed-Black.eot?#iefix') format('embedded-opentype'),
@@ -287,7 +287,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Condensed';
+    font-family: 'Tungsten-Condensed-SemiBold';
     src: url('font/TungstenCondensed-SemiBold.eot');
     src: local('Tungsten Condensed SemiBold'), local('TungstenCondensed-SemiBold'),
         url('font/TungstenCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
@@ -299,7 +299,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Compressed';
+    font-family: 'Tungsten-Compressed-Bold';
     src: url('font/TungstenCompressed-Bold.eot');
     src: local('Tungsten Compressed Bold'), local('TungstenCompressed-Bold'),
         url('font/TungstenCompressed-Bold.eot?#iefix') format('embedded-opentype'),
@@ -311,7 +311,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Narrow';
+    font-family: 'Tungsten-Narrow-Black';
     src: url('font/TungstenNarrow-Black.eot');
     src: local('Tungsten Narrow Black'), local('TungstenNarrow-Black'),
         url('font/TungstenNarrow-Black.eot?#iefix') format('embedded-opentype'),
@@ -323,7 +323,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten';
+    font-family: 'Tungsten-Black';
     src: url('font/Tungsten-Black.eot');
     src: local('Tungsten Black'), local('Tungsten-Black'),
         url('font/Tungsten-Black.eot?#iefix') format('embedded-opentype'),
@@ -335,7 +335,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten';
+    font-family: 'Tungsten-Bold';
     src: url('font/Tungsten-Bold.eot');
     src: local('Tungsten Bold'), local('Tungsten-Bold'),
         url('font/Tungsten-Bold.eot?#iefix') format('embedded-opentype'),
@@ -347,7 +347,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten';
+    font-family: 'Tungsten-SemiBold';
     src: url('font/Tungsten-SemiBold.eot');
     src: local('Tungsten SemiBold'), local('Tungsten-SemiBold'),
         url('font/Tungsten-SemiBold.eot?#iefix') format('embedded-opentype'),
@@ -359,7 +359,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Condensed';
+    font-family: 'Tungsten-Condensed-Thin';
     src: url('font/TungstenCondensed-Thin.eot');
     src: local('Tungsten Condensed Thin'), local('TungstenCondensed-Thin'),
         url('font/TungstenCondensed-Thin.eot?#iefix') format('embedded-opentype'),
@@ -371,7 +371,7 @@
 }
 
 @font-face {
-    font-family: 'Tungsten Narrow XLight';
+    font-family: 'Tungsten-Narrow-ExtraLight';
     src: url('font/TungstenNarrow-ExtraLight.eot');
     src: local('Tungsten Narrow ExtraLight'), local('TungstenNarrow-ExtraLight'),
         url('font/TungstenNarrow-ExtraLight.eot?#iefix') format('embedded-opentype'),
